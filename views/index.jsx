@@ -2,7 +2,7 @@ const React = require('react')
 
 const Default = require('./layouts/Default')
 
-function Index () {
+function Index ({breads}) {
     return (
       <Default>
         <h2>Index Page</h2>
